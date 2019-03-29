@@ -6,23 +6,24 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: Keto
   config:
     required: true
 - type: text
   label: Hero Heading
   name: heading
-  default: Belkirk College
+  default: Keto Fire Burn
 - type: text
   name: sub_heading
   label: Hero Sub heading
-  default: Engineering and Health Sciences
+  default: Burn Fat for Energy! BHB Formula!
 - type: file
   name: banner_image
   label: Hero Image
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
+  default: "/uploads/beach-woman-t.jpg"
 - type: field_group
   name: hero_button
   label: Hero Button
